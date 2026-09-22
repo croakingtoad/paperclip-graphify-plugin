@@ -38,7 +38,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@sentropic/graphify": "^0.18.0"
+  },
   "devDependencies": {
     "@paperclipai/plugin-sdk": "^0.1.0",
     "@types/node": "^24.0.0",
@@ -51,6 +53,7 @@
     "vitest": "^4.1.11"
   },
   "peerDependencies": {
+    "@paperclipai/plugin-sdk": "^0.1.0",
     "react": ">=18",
     "react-dom": ">=18"
   },
