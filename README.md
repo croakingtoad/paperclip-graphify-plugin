@@ -1,4 +1,4 @@
-# @paperclipai/plugin-graphify
+# @mosquitohawk/paperclipai-graphify-plugin
 
 A [Paperclip](https://paperclip.ing) plugin that integrates [Graphify](https://github.com/nicholasgriffintn/graphify) knowledge graphs into your agent workflows and project UI.
 
@@ -7,13 +7,13 @@ A [Paperclip](https://paperclip.ing) plugin that integrates [Graphify](https://g
 Install from npm in the Paperclip plugin UI:
 
 ```
-@paperclipai/plugin-graphify
+@mosquitohawk/paperclipai-graphify-plugin
 ```
 
-Or from a local registry:
+Or via npm directly:
 
 ```bash
-npm install @paperclipai/plugin-graphify --registry http://localhost:4873/
+npm install @mosquitohawk/paperclipai-graphify-plugin
 ```
 
 ## Features
