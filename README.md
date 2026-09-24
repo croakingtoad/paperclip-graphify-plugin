@@ -2,6 +2,20 @@
 
 A [Paperclip](https://paperclip.ing) plugin that integrates [Graphify](https://github.com/nicholasgriffintn/graphify) knowledge graphs into your agent workflows and project UI.
 
+## Installation
+
+Install from npm in the Paperclip plugin UI:
+
+```
+@paperclipai/plugin-graphify
+```
+
+Or from a local registry:
+
+```bash
+npm install @paperclipai/plugin-graphify --registry http://localhost:4873/
+```
+
 ## Features
 
 ### Agent Tools
@@ -41,20 +55,6 @@ Views support fullscreen expand (Escape to exit).
 ### Managed Skill
 
 The plugin injects a skill into the company skill library that teaches agents when to prefer Graphify tools over expensive grep/find for structural codebase questions.
-
-## Installation
-
-Install from npm in the Paperclip plugin UI:
-
-```
-@paperclipai/plugin-graphify
-```
-
-Or from a local registry:
-
-```bash
-npm install @paperclipai/plugin-graphify --registry http://localhost:4873/
-```
 
 ## Configuration
 
